@@ -1,0 +1,128 @@
+[
+{
+"Year" : "2017",
+"Calls" :
+ [
+  {"Month":"Jan", "EMS":"228", "Fire":"53"},
+  {"Month":"Feb", "EMS":"173", "Fire":"35"},
+  {"Month":"Mar", "EMS":"218", "Fire":"49"},
+  {"Month":"Apr", "EMS":"214", "Fire":"73"},
+  {"Month":"May", "EMS":"218", "Fire":"83"},
+  {"Month":"Jun", "EMS":"209", "Fire":"83"},
+  {"Month":"Jul", "EMS":"-", "Fire":"-"},
+  {"Month":"Aug", "EMS":"-", "Fire":"-"},
+  {"Month":"Sep", "EMS":"-", "Fire":"-"},
+  {"Month":"Oct", "EMS":"-", "Fire":"-"},
+  {"Month":"Nov", "EMS":"-", "Fire":"-"},
+  {"Month":"Dec", "EMS":"-", "Fire":"-"}
+ ]
+},
+{
+"Year" : "2016",
+"Calls" :
+ [
+  {"Month":"Jan", "EMS":"196", "Fire":"81"},
+  {"Month":"Feb", "EMS":"168", "Fire":"72"},
+  {"Month":"Mar", "EMS":"181", "Fire":"85"},
+  {"Month":"Apr", "EMS":"160", "Fire":"71"},
+  {"Month":"May", "EMS":"183", "Fire":"86"},
+  {"Month":"Jun", "EMS":"185", "Fire":"92"},
+  {"Month":"Jul", "EMS":"166", "Fire":"116"},
+  {"Month":"Aug", "EMS":"-", "Fire":"-"},
+  {"Month":"Sep", "EMS":"192", "Fire":"59"},
+  {"Month":"Oct", "EMS":"194", "Fire":"52"},
+  {"Month":"Nov", "EMS":"203", "Fire":"54"},
+  {"Month":"Dec", "EMS":"-", "Fire":"-"}
+ ]
+},
+{
+"Year" : "2015",
+"Calls" :
+ [
+  {"Month":"Jan", "EMS":"157", "Fire":"68"},
+  {"Month":"Feb", "EMS":"129", "Fire":"38"},
+  {"Month":"Mar", "EMS":"128", "Fire":"58"},
+  {"Month":"Apr", "EMS":"146", "Fire":"73"},
+  {"Month":"May", "EMS":"163", "Fire":"71"},
+  {"Month":"Jun", "EMS":"176", "Fire":"32"},
+  {"Month":"Jul", "EMS":"200", "Fire":"120"},
+  {"Month":"Aug", "EMS":"182", "Fire":"75"},
+  {"Month":"Sep", "EMS":"197", "Fire":"68"},
+  {"Month":"Oct", "EMS":"174", "Fire":"100"},
+  {"Month":"Nov", "EMS":"187", "Fire":"74"},
+  {"Month":"Dec", "EMS":"207", "Fire":"60"}
+ ]
+},
+{
+"Year" : "2014",
+"Calls" :
+ [
+  {"Month":"Jan", "EMS":"152", "Fire":"83"},
+  {"Month":"Feb", "EMS":"112", "Fire":"56"},
+  {"Month":"Mar", "EMS":"132", "Fire":"43"},
+  {"Month":"Apr", "EMS":"151", "Fire":"56"},
+  {"Month":"May", "EMS":"142", "Fire":"67"},
+  {"Month":"Jun", "EMS":"151", "Fire":"59"},
+  {"Month":"Jul", "EMS":"151", "Fire":"54"},
+  {"Month":"Aug", "EMS":"126", "Fire":"70"},
+  {"Month":"Sep", "EMS":"120", "Fire":"71"},
+  {"Month":"Oct", "EMS":"123", "Fire":"54"},
+  {"Month":"Nov", "EMS":"157", "Fire":"36"},
+  {"Month":"Dec", "EMS":"186", "Fire":"75"}
+ ]
+},
+{
+"Year" : "2013",
+"Calls" :
+ [
+  {"Month":"Jan", "EMS":"99", "Fire":"52"},
+  {"Month":"Feb", "EMS":"113", "Fire":"38"},
+  {"Month":"Mar", "EMS":"134", "Fire":"37"},
+  {"Month":"Apr", "EMS":"110", "Fire":"35"},
+  {"Month":"May", "EMS":"134", "Fire":"67"},
+  {"Month":"Jun", "EMS":"112", "Fire":"107"},
+  {"Month":"Jul", "EMS":"116", "Fire":"71"},
+  {"Month":"Aug", "EMS":"130", "Fire":"66"},
+  {"Month":"Sep", "EMS":"136", "Fire":"73"},
+  {"Month":"Oct", "EMS":"135", "Fire":"43"},
+  {"Month":"Nov", "EMS":"133", "Fire":"42"},
+  {"Month":"Dec", "EMS":"118", "Fire":"67"}
+ ]
+},
+{
+"Year" : "2012",
+"Calls" :
+ [
+  {"Month":"Jan", "EMS":"95", "Fire":"39"},
+  {"Month":"Feb", "EMS":"98", "Fire":"42"},
+  {"Month":"Mar", "EMS":"55", "Fire":"42"},
+  {"Month":"Apr", "EMS":"109", "Fire":"52"},
+  {"Month":"May", "EMS":"107", "Fire":"58"},
+  {"Month":"Jun", "EMS":"92", "Fire":"49"},
+  {"Month":"Jul", "EMS":"108", "Fire":"67"},
+  {"Month":"Aug", "EMS":"102", "Fire":"57"},
+  {"Month":"Sep", "EMS":"101", "Fire":"49"},
+  {"Month":"Oct", "EMS":"109", "Fire":"54"},
+  {"Month":"Nov", "EMS":"92", "Fire":"62"},
+  {"Month":"Dec", "EMS":"122", "Fire":"53"}
+ ]
+},
+{
+"Year" : "2011",
+"Calls" :
+ [
+  {"Month":"Jan", "EMS":"82", "Fire":"52"},
+  {"Month":"Feb", "EMS":"69", "Fire":"29"},
+  {"Month":"Mar", "EMS":"85", "Fire":"43"},
+  {"Month":"Apr", "EMS":"94", "Fire":"35"},
+  {"Month":"May", "EMS":"95", "Fire":"52"},
+  {"Month":"Jun", "EMS":"105", "Fire":"43"},
+  {"Month":"Jul", "EMS":"97", "Fire":"79"},
+  {"Month":"Aug", "EMS":"118", "Fire":"71"},
+  {"Month":"Sep", "EMS":"93", "Fire":"58"},
+  {"Month":"Oct", "EMS":"127", "Fire":"61"},
+  {"Month":"Nov", "EMS":"90", "Fire":"81"},
+  {"Month":"Dec", "EMS":"97", "Fire":"54"}
+ ]
+}
+]

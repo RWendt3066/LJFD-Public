@@ -1,0 +1,170 @@
+[
+{
+"ID":"E111",
+"NAME":"Engine 111",
+"SPECS":{
+	"YEAR":"2001",
+	"CHASSIS":"Spartan",
+	"BODY":"General Safety",
+	"ENGINE":"Cummins Diesel",
+	"PUMP":"Waterous 1500 GPM",
+	"WATER TANK":"500 Gallons",
+	"CREW SIZE":"7 Firefighters",
+	"RESCUE TOOLS":"Centaur Electric Powered Spreaders, Cutters and Ram",
+	"FOAM SYSTEM":"Foam Pro Class A",
+	"MISCELLANEOUS":"3000 Watt Light Tower, AED, Thermal Imager, 4-Gas Monitor"
+	}
+},{
+"ID":"E121",
+"NAME":"Engine 121",
+"SPECS":{
+	"YEAR":"2012",
+	"CHASSIS":"Rosenbauer",
+	"BODY":"Rosenbauer",
+	"ENGINE":"Cummins Diesel",
+	"PUMP":"Waterous 1250 GPM",
+	"WATER TANK":"900 Gallons",
+	"CREW SIZE":"5 Firefighters",
+	"RESCUE TOOLS":"Centaur Electric Powered Spreaders, Cutters, and Ram",
+	"FOAM SYSTEM":"Foam Pro Class A",
+	"MISCELLANEOUS":"AED, 4-Gas Monitor, Master Stream Device"
+	}
+},{
+"ID":"E122",
+"NAME":"Engine 122",
+"SPECS":{
+	"YEAR":"1985, Refurbished in 2001",
+	"CHASSIS":"Ford L9000",
+	"BODY":"General Safety",
+	"ENGINE":"Detroit Diesel",
+	"PUMP":"Waterous 1250 GPM",
+	"WATER TANK":"500 Gallons",
+	"CREW SIZE":"7 Firefighters",
+	"RESCUE TOOLS":"Centaur Electric Powered Spreaders, Cutters, Ram and Air Bags",
+	"FOAM SYSTEM":"Foam Pro Class A",
+	"MISCELLANEOUS":"AED, Thermal Imager, 4-Gas Monitor"
+	}
+},{
+"ID":"E131",
+"NAME":"Engine 131",
+"SPECS":{
+	"YEAR":"2008",
+	"CHASSIS":"Spartan",
+	"BODY":"General Safety",
+	"ENGINE":"Cummins Diesel",
+	"PUMP":"Waterous 1250 GPM",
+	"WATER TANK":"1000 Gallons",
+	"CREW SIZE":"7 Firefighters",
+	"RESCUE TOOLS":"Centaur Electric Powered Spreaders, Cutters and Ram",
+	"FOAM SYSTEM":"Foam Pro Class A",
+	"MISCELLANEOUS":"AED, 4-Gas Monitor, Remote Control Master Stream Device"
+	}
+},{
+"ID":"E141",
+"NAME":"Engine 141",
+"SPECS":{
+	"YEAR":"1994",
+	"CHASSIS":"Spartan",
+	"BODY":"Salsbury",
+	"ENGINE":"Detroit Diesel",
+	"PUMP":"Hale 2000 GPM",
+	"WATER TANK":"1250 Gallons",
+	"CREW SIZE":"8 Firefighters",
+	"RESCUE TOOLS":"Centaur Electric Powered Spreaders, Cutters and Ram(Compatable)",
+	"FOAM SYSTEM":"Foam Pro Class A"
+	}
+},{
+"ID":"T124",
+"NAME":"Tanker 124",
+"SPECS":{
+	"YEAR":"2002",
+	"CHASSIS":"Freightliner FL106",
+	"BODY":"General Safety",
+	"ENGINE":"Detroit Diesel",
+	"PUMP":"Waterous 750 GPM (Rear Mounted)",
+	"WATER TANK":"2000 Gallons",
+	"CREW SIZE":"3 Firefighters"
+	}
+},{
+"ID":"L133",
+"NAME":"Ladder 133",
+"SPECS":{
+	"YEAR":"1989, Refurbished in 1996",
+	"CHASSIS":"Duplex",
+	"BODY":"LTI",
+	"ENGINE":"Detroit Diesel",
+	"PUMP":"Waterous 1500 GPM",
+	"WATER TANK":"200 Gallons",
+	"CREW SIZE":"6 Firefighters",
+	"LADDER":"100ft Ladder with Platform",
+	"MISCELLANEOUS":"Confined Space Rescue Team Equiped"
+	}
+},{
+"ID":"L143",
+"NAME":"Ladder 143",
+"SPECS":{
+	"YEAR":"2006",
+	"CHASSIS":"Spartan",
+	"BODY":"Rosenbauer/General Safety",
+	"ENGINE":"Catipiliar Diesel",
+	"PUMP":"Hale 1250 GPM",
+	"WATER TANK":"700 Gallons",
+	"CREW SIZE":"6 Firefighters",
+	"LADDER":"67ft Box Boom Ladder",
+	"RESCUE TOOLS":"Centaur Electric Powered Spreaders, Cutters and Ram",
+	"FOAM SYSTEM":"Foam Pro Class A",
+	"MISCELLANEOUS":"AED, Thermal Imager, 4-Gas Monitor"
+	}
+},{
+"ID":"R145",
+"NAME":"Rescue 145",
+"SPECS":{
+	"YEAR":"1999",
+	"CHASSIS":"Ford F-350",
+	"BODY":"Rescue Body Refabrication 2013 by Rosenbauer",
+	"ENGINE":"V-10 Gas",
+	"PUMP":"Waterous 100 GPM",
+	"WATER TANK":"110 Gallons",
+	"CREW SIZE":"5 Firefighters",
+	"FOAM SYSTEM":"Foam Pro Class A",
+	"MISCELLANEOUS":"AED, 4-Gas Monitor, Portable Generator"
+	}
+},{
+"ID":"U115",
+"NAME":"Utility 115",
+"SPECS":{
+	"YEAR":"1999",
+	"CHASSIS":"Ford F-350",
+	"BODY":"General Safety",
+	"ENGINE":"V-10 Gas",
+	"PUMP":"Waterous Portable 100 GPM",
+	"WATER TANK":"235 Gallons",
+	"CREW SIZE":"5 Firefighters"
+	}
+},{
+"ID":"U125",
+"NAME":"Utility 125",
+"SPECS":{
+	"YEAR":"2006",
+	"CHASSIS":"Ford F-350",
+	"BODY":"General Safety",
+	"ENGINE":"V-10 Gas",
+	"PUMP":"Waterous Portable 100 GPM",
+	"WATER TANK":"155 Gallons",
+	"CREW SIZE":"5 Firefighters",
+	"SKID UNIT":"Emergency Apparatus Maintenance"
+	}
+},{
+"ID":"U135",
+"NAME":"Utility 135",
+"SPECS":{
+	"YEAR":"1995",
+	"CHASSIS":"Ford F-350",
+	"BODY":"General Safety",
+	"ENGINE":"V-8 Gas",
+	"PUMP":"Waterous Portable 150 GPM and Floto Pump",
+	"WATER TANK":"235 Gallons",
+	"CREW SIZE":"5 Firefighters"
+	}
+}
+]

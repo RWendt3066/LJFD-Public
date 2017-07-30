@@ -1,0 +1,83 @@
+{
+"indoors" : [
+	{
+		"title":"Smoke Alarms", 
+		"url":"http://www.nfpa.org/assets/files/PDF/Research/SmokeAlarmsSafetyTips.pdf", 
+		"size":"(pdf, 219 KB)",
+		"description":"Smoke alarms are an important part of a home fire escape plan. When there is a fire, smoke spreads fast.  Working smoke alarms give you early warning so you can get outside quickly.  Smoke alarms that are properly installed and maintained play a vital role in reducing fire deaths and injuries.",
+		"display":"Y"
+	},
+	{
+		"title":"Carbon Monoxide", 
+		"url":"http://www.nfpa.org/assets/files/PDF/Public%20Education/COSafety.pdf", 
+		"size":"(pdf, 612 KB)",
+		"description":"Often called the silent killer, carbon monoxide is an invisible, odorless, colorless gas created when fuels (such as gasoline, wood, coal, natural gas, propane, oil, and methane) burn incompletely. In the home, heating and cooking equipment that burn fuel can be sources of carbon monoxide.",
+		"display":"Y"
+	},
+	{
+		"title":"Cooking", 
+		"url":"http://www.nfpa.org/~/media/Files/Safety%20information/Safety%20tip%20sheets/cookingsafety.pdf", 
+		"size":"(pdf, 171 KB)",
+		"description":"Cooking brings family and friends together, provide an outlet for creativity and can be relaxing. But did you know that cooking fires are the number one cause of home fires and home injuries? By following a few safety tips you can prevent these fires.",
+		"display":"Y"
+	},
+	{
+		"title":"Candle Safety Sheet", 
+		"url":"http://www.nfpa.org/assets/files/PDF/Public%20Education/CandleSafetyTips.pdf", 
+		"size":"(pdf, 792 KB)",
+		"description":"Candles may be pretty to look at but they are a cause of home fires - and home fire deaths. Remember, a candle is an open flame, which means that it can easily ignite anything that can burn.",
+		"display":"Y"
+	},
+	{
+		"title":"Heating", 
+		"url":"http://www.nfpa.org/assets/files/PDF/Public%20Education/Heating_Safety.pdf", 
+		"size":"(pdf, 634 KB)",
+		"description":"There is something about the winter months and curling up with a good book by the fireplace. But did you know that heating equipment is a leading cause of home fire deaths? With a few simple safety tips and precautions you can prevent most heating fires from happening.",
+		"display":"Y"
+	},
+	{
+		"title":"Home Fire Sprinklers", 
+		"url":"http://www.nfpa.org/assets/files/PDF/Public%20Education/Home_Sprinklers.pdf", 
+		"size":"(pdf, 1 MB)",
+		"description":"Over 80% of fire deaths occur in the home. Home fire sprinklers can save lives and property from fire.  They respond quickly and effectively to fire, often extinguishing the fire before the fire department arrives.  Only the sprinkler closest to the fire will activate, spraying water on the fire.",
+		"display":"Y"
+	},
+	{
+		"title":"Escape Planning", 
+		"url":"http://www.nfpa.org/assets/files/PDF/Public%20Education/EscapePlanningTips.pdf", 
+		"size":"(pdf, 444 KB)",
+		"description":"Plan Ahead! If a fire breaks out in your home, you may have only a few minutes to get out safely once the smoke alarm sounds. Everyone needs to know what to do and where to go if there is a fire.",
+		"display":"Y"
+	} ],
+"outdoors" :
+ [
+	{
+		"title":"Grilling", 
+		"url":"http://www.nfpa.org/assets/files//PDF/Public%20Education/Grilling_Safety_tips.pdf", 
+		"size":"(pdf, 427 KB)",
+		"description":"There's nothing like outdoor grilling. It's one of the most popular ways to cook food. But, a grill placed too close to anything that can burn is a fire hazard. They can be very hot, causing burn injuries.  Follow these simple tips and you will be on the way to safe grilling.",
+		"display":"Y"
+	},
+	{
+		"title":"Fireworks", 
+		"url":"http://www.nfpa.org/assets/files//PDF/Public%20Education/FireworksSafetyTips.pdf", 
+		"size":"(pdf, 633 KB)",
+		"description":"Fireworks during the Fourth of July are as American as apple-pie, but did you know that more fires are reported on that day than on any other day of the year in the United States? Nearly half of these fires are caused by fireworks. The good news is you can enjoy your holiday and the fireworks, with just a few simple safety tips.",
+		"display":"N"
+	},
+	{
+		"title":"Generators", 
+		"url":"http://www.nfpa.org/assets/files/PDF/Public%20Education/GeneratorSafetyTips.pdf", 
+		"size":"(pdf, 113 KB)",
+		"description":"Downed utility lines, power company blackouts, heavy snow falls or summer storms can all lead to power outages. Many people turn to a portable generator for a temporary solution without knowing the risks.",
+		"display":"Y"
+	},
+	{
+		"title":"Lightning", 
+		"url":"http://www.nfpa.org/assets/files/PDF/Public%20Education/Lightning_Safety.pdf", 
+		"size":"(pdf, 680 KB)",
+		"description":"Thunder and lightning storms happen all the time. But did you know that lightning strikes and lightning fires occur most often in the summer? Know what to do to keep you and your family safe when it does strike!",
+		"display":"Y"
+	}
+ ]
+}

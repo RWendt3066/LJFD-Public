@@ -1,0 +1,14 @@
+[
+  {"Question":"Do I need a permit for a recreational fire?", 
+   "Answer":"No, a permit is not required for a recreational fire in the cities of Arden Hills, North Oaks, and Shoreview. However, please see the <a href='data/pdf/rec-fire-rules.pdf' target='_blank'>Rules for Recreational Fires</a> which are found in the Recreational Fire section on the Fire Safety page."
+  },
+  {"Question":"How do I request a station tour or PR event?", 
+   "Answer":"To schedule a station tour or other PR event, submit a <a href='forms/pr-request.html' target='_blank'>PR Event Request</a> or contact Nate Berg, LJFD Fire Marshal, at 651-481-7024 or by <a href='mailto:nberg@ljfd.org'>email</a> with the following information:<br><ul><li>Type of event</li><li>Date and time of event</li><li>Location of event (If the event is to be at one of the Fire Stations, please indicate which station is desired.)</li><li>Contact name and phone number</li><li>Approximate number of children/adults attending</li></ul>"
+  },
+  {"Question":"How many smoke detectors do I need in my house?", 
+   "Answer":"A smoke detector should be in every bedroom, outside each sleeping area and on every level of the home, including the basement. For further information, please see the Smoke Alarm Safety Sheet on the Fire Safety page or to see <a href='https://dps.mn.gov/divisions/sfm/public-education/Documents/Home%20Fire%20Safety%20Information/SmokeAlarmRequirements.pdf' target='_blank'>Minnesota State Statutes and Guidelines</a>, for additional information."
+  },
+  {"Question":"Where should I install my carbon monoxide detector?", 
+   "Answer":"CO Alarms should be installed in a central location outside each sleeping area and on every level of the home. For further information, please see the carbon monoxide safety sheet on the fire safety page or to see <a href='https://dps.mn.gov/divisions/sfm/public-education/Documents/Home%20Fire%20Safety%20Information/COAlarmStatute299F50.pdf' target='_blank'>Minnesota State Statutes and Guidelines</a>, for additional information."
+  }
+]
