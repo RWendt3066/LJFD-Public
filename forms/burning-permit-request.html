@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Burning Permit Request | LJFD.org</title>
+	
+	<link rel="stylesheet" type="text/css" href="../stylesheets/forms.css" />
+	<link rel="stylesheet" type="text/css" href="../stylesheets/burnPermit.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../stylesheets/jsDatePick_ltr.min.css" />
+
+	<script type="text/javascript" src="../scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="../scripts/jsDatePick.jquery.min.1.3.js"></script>
+	<script type="text/javascript" src="../scripts/burnpermit.js"></script> 
+	<script type="text/javascript" src="../scripts/forms.js"></script> 
+
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="page-headder">
+            <div class="float-left" style="text-align:center; width:25%;">
+                <img width="90" src="../images/LJFD_Badge_162.png" />
+            </div>
+            <div style="text-align:center; width:75%;">
+                <br />
+                <h1>Lake Johanna Fire Department</h1>
+                <h3>5545 Lexington Avenue North</h3>
+                <h3>Shoreview, MN 55126</h3>
+                <h3>Office 651-481-7024 | Fax 651-486-8826</h3>
+                <br />
+                <p>Serving the Communities of<span> | </span> 
+				    <a class="st" href="http://www.ci.arden-hills.mn.us/" target="_blank">Arden Hills</a><span> | </span> 
+				    <a class="st" href="http://www.cityofnorthoaks.com/" target="_blank">North Oaks</a><span> | </span>
+				    <a class="st" href="http://www.shoreviewmn.gov/" target="_blank">Shoreview</a>
+                </p>
+                <br />
+            </div>
+        </div>
+        <hr style="text-align:center; width:100%;" />
+        <br />
+
+        <form name="burnPermit" action="process-permit.php5" method="post" onsubmit="return validateEmail(#inputemail)">
+
+        <button class="float-right" type="submit">
+            <b>Submit</b><br>
+            <img width="60" src="../Images/Rec fire 2.png" alt="send">
+        </button>
+
+        <div id="form-intro">
+            <h2>Request for Burning Permit</h2>
+            <br />
+            <p>This permit request is only valid for trees, brush, leaves, clean unpainted lumber or other dry vegetative material.</p>  
+            <p><b>Under M.S. 88.171, Prohibited Materials Include</b> (but are not limited to): garbage, oils, rubber, plastics, tires and chemically treated materials such as railroad ties, treated lumber, composite shingles, tar paper, insulation, composition board, sheet rock, wiring, paint, hazardous and industrial solid waste.</p>
+            <br />
+        </div>
+        
+        <div id="lt-form-block" class="float-left">
+            <p><b>Permittee Information:</b></p>
+            <fieldset id="lt-fs" class="fs-level1">
+                <fieldset class="fs-level2">
+                    <p id="left-msg">Please provide the following contact information regarding the individual that will be responsible for the actual burn.</p>
+                </fieldset>
+                <br>
+                <div style="display:inline-block;width:51%;">
+                    <label>First Name:</label>
+                    <input type="text" style="width:90%" name="firstname" />
+                </div>
+                <div style="display:inline-block;width:46%;">
+                    <label>Last Name:</label>
+                    <input type="text" style="width:100%" name="lastname" />
+                </div>
+                <div style="display:inline-block;width:98%;">
+                    <label>Address:</label>
+                    <input type="text" style="width:100%" name="address1" /><br>
+                    <input type="text" style="width:100%" name="address2" /><br>
+                </div>
+                <div style="display:inline-block;width:51%;">
+                    <label>City:</label><br />
+                    <select id="inputCity" name="city" style="width:90%" onchange="setZIP();">
+                        <option value="blank">Select...</option>
+                        <option value="Arden Hills">Arden Hills</option>
+                        <option value="North Oaks">North Oaks</option>
+                        <option value="Shoreview">Shoreview</option>
+                    </select>
+                </div>
+                <div style="display:inline-block;width:17%;">
+                    <label>State:</label>
+                    <input type="text" name="state" style="width:75%" maxlength="2" value="MN" />
+                </div>
+                <div style="display:inline-block;width:28%;">
+                    <label>ZIP:</label><br />
+                    <input id="inputZip" type="text" name="zip" style="width:100%" maxlength="10" />
+                </div>
+                <div style="display:inline-block;width:51%;">
+                    <label>Phone:</label><br />
+                    <input type="text" style="width:10%;" maxlength="3" name="areacode" value="651" />
+                    <span>-</span>
+                    <input type="text" style="width:10%;" maxlength="3" name="prefix"/>
+                    <span>-</span>
+                    <input type="text" style="width:13%;" maxlength="4" name="phone"/>
+                    <span>Ext</span>
+                    <input type="text" style="width:18%;" maxlength="5" name="extension"/> 
+                </div>
+                <div style="display:inline-block;width:46%;">
+                    <label>Email:*</label><br />
+                    <input id="inputEmail" type="text" name="email" style="width:100%;"/><br />
+                </div
+            </fieldset>
+            <br>
+		</div>
+		
+        <div id="rt-form-block">
+            <p><b>Description of Burn:</b></p>
+            <fieldset id="rt-fs" class="fs-level1">
+                <fieldset class="fs-level2">
+                    <p>Given the restrictions stated above, please describe the type of burn being requested and the type of material to be burned.  Also, provide the date and time the burn is to take place.</p>
+                </fieldset>
+                <br>
+                <input type="radio" name="burn_type" value="Piled" /> <b>PILED</b> - Burning of individual piles of material.<br />
+                <fieldset id="piled-info" style="background-image:url(../Images/lgrey016.jpg)">
+                    <p><b><i>Indicate Material to be Burned: </i></b></p>
+                        <input type="checkbox" name="pile_trees" value="Trees" /> Trees 
+                        <input type="checkbox" name="pile_brush" value="Brush" /> Brush
+                        <input type="checkbox" name="pile_other" value="Other" /> Other:
+                        <input type="text" style="max-width:250px" name="other_material" />
+                    <br><br>
+                    # of piles: <input type="text" style="width:60px" name="pileqty" />
+                    Pile size in feet: <input type="text" style="width:60px" name="pileSize" />
+                    <br>
+                </fieldset>
+                <input type="radio" name="burn_type" value="Running Fire" /> <b>RUNNING FIRE</b> - Burning contained to a geographical area.<br />
+                <fieldset id="running-info" style="background-image:url(../Images/lgrey016.jpg)">
+                    <p><b><i>Indicate Material to be Burned: </i></b></p>
+                        <input type="checkbox" name="running_trees" value="Trees" /> Trees 
+                        <input type="checkbox" name="running_brush" value="Brush" /> Brush
+                        <input type="checkbox" name="running_grass" value="Grass" /> Grass
+                    <br>
+                    Size of burn is limited to less than 1 acre (approx. 200 ft. x 200 ft.)
+                    <br>
+                </fieldset>
+                <br>
+                <div style="display:inline-block;width:49%;">
+                    <label>Requested Start Date:</label>
+                    <input id="burnStart" type="text" name="start_date" style="width:90%" />
+                </div>
+                <div style="display:inline-block;width:48%;">
+                    <label>Requested End Date:</label>
+                    <input id="burnEnd" type="text" style="width:90%" name="end_date" />
+                </div>
+                <br>
+            </fieldset>
+        </div>
+        <br>
+        <div>
+            <p><b>Special Conditions: </b></p>
+            <fieldset style="background-image:url(../Images/lgrey011.jpg)">
+                <fieldset class="fs-level2">
+                    <p>List any special conditions related to this burn beyond the information provided above.
+                </fieldset>
+                <br>
+                <textarea name="sc_info" rows=7 style="width:98%"></textarea>
+                <br><br>
+            </fieldset>
+		</div>
+
+        </form>
+    </div>
+</body>

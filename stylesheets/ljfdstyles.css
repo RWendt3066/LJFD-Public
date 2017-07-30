@@ -1,0 +1,448 @@
+/* Cascading Style Sheet for LJFD Public Site */
+/* ------------------------------------------ */
+
+/* Styles for Global Formatting */
+
+body
+{
+   margin: 3px;
+   padding: 0;
+   text-align: left;
+/*   font: 10px Lucida Fax, Helvetica, Arial, Verdana, sans-serif;*/
+   font: 12px Tahoma, Verdana, Geneva, sans-serif;
+   font-size: 14px;
+   color: #000000;
+   background: #000000;
+   background-repeat:repeat;
+}
+*
+{
+   margin: 0 auto 0 auto;
+} 
+.off
+{
+   color:#CCCCCC;
+}
+#container
+{
+   display: block;
+   width: 1015px;
+   height: auto;
+   position: relative;
+   background: #000000;
+}
+.float-left
+{
+   position:relative; 
+   float:left;
+}
+.float-right
+{
+   position:relative; 
+   float:right;
+}
+
+/* Styles for List Formatting */
+
+ul.niceList 
+{ 
+   margin-left:0em; 
+   padding-left:0.2em; 
+   margin-bottom:1em; 
+}
+ul.niceList li 
+{ 
+   background:url(../Images/bullet.gif) 0em 0.3em no-repeat; /* change background em accordingly */ 
+   padding-left: 0.8em; 
+   list-style: none; 
+}
+.niceList ul li 
+{ 
+   background-image:url(../Images/bullet_child.gif); 
+}
+ol.niceList li, ul.niceList li 
+{ 
+   margin-bottom:0.5em; 
+}
+ol.niceList 
+{ 
+   margin-left:1.5em; 
+   padding-left:0px; 
+}
+.niceList ol li 
+{ 
+   list-style:decimal; 
+   background-image:none; 
+   padding-left:0em; 
+}
+
+/* Styles for Page Header and Footer Formatting */
+
+#banner
+{
+   display: block;   
+   width: 1015px;
+   height:174px;
+   background: #CCCCCC;
+   background-image:url(../Images/LJFD_Banner.jpg); 
+}
+#ljfd-title
+{
+   position: absolute;
+   top: 129px;
+   left: 340px;
+   text-align: left;
+   color: #990000;
+   font: 24px Elephant, sans-serif;
+   font-variant:small-caps;
+   font-size: 28px;
+}
+#ljfd-subtitle
+{
+   position: absolute;
+   top: 130px;
+   left: 10px;
+   text-align: left;
+   color: #FFFFFF;
+   font: 12px Arial, Helvetica, sans-serif;
+   font-size: small;
+   font-weight: normal
+}
+#ljfd-badge
+{
+   display: block;   
+   width: 120px;
+   height: 162px;
+   position: absolute;
+   top: 10px;
+   right: 20px;
+}
+#member-login
+{
+   text-align:center; 
+   color: #990000;
+   font: 12px Georgia, Helvetica, sans-serif;
+   font-size: small;
+   font-weight: bold;
+   position:absolute;
+   left:10px;
+   top:82px
+}
+#footer
+{
+   position: relative;
+   text-align: center;
+   color: #CCCCCC;
+   font-size: 10px;
+   font-weight: normal;
+}
+
+/* Styles for Main Navigation Tabs */
+
+#nav-bar
+{
+   display: block;   
+   width: 1015px;
+   height: 65px;
+   float: left; 
+   background: #000000;
+   verticle-align: middle;
+}
+.nav-tab
+{
+   display:block;
+   height:30px;
+   width:169px;
+   position:relative;
+   float:left;
+   text-decoration: none;
+   font-weight:bold;
+   font-size:medium;
+   text-align:center;
+   margin-top:5px;
+   margin-bottom:5px;
+   padding:15px 0px;
+   cursor:pointer;
+}
+.nav-button
+{
+   background-image:url(../nav/GlossyBlack-Button169.png);
+   background-repeat:no-repeat;
+   color:#FF0000;
+}
+.nav-hover
+{
+   background-image:url(../nav/GlossyBlack-Hover169.png);
+   background-repeat:no-repeat;
+   color:#CCCCCC;
+}
+.nav-active
+{
+   background-image:url(../nav/GlossyBlack-Active169.png);
+   background-repeat:no-repeat;
+   color:#FFFFFF;
+}
+
+/* Styles for Information Display Areas */
+
+#left-content
+{
+   display: block;   
+   color:#F8F6F6;
+}
+#main-content
+{
+   display: block;   
+}
+#right-content
+{
+   display: block;   
+   color:#F8F6F6;
+}
+.grey-header
+{
+   width: 174px;
+   height: 26px;
+   border-bottom-style: solid;
+   border-bottom-color: #000000;
+   background-image:url(../Images/lgrey091.gif);
+   background-repeat:repeat;
+   text-align: center;
+   font: 14 px Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   font-weight: bold;
+   color: #000000;
+   padding: 6px 0px 0px 0px;
+}
+
+/* Styles for Call History Table */
+
+#ch-table
+{
+   border-style:solid;
+   border-width:thin;
+   border-color:#F8F6F6;
+   border-collapse:separate;
+   font: 12px Verdana, Arial, Helvetica, sans-serif;
+   font-size: small;
+   font-weight: normal;
+   color: #CCCCCC;
+}
+table#ch-table th
+{
+   border-style:solid;
+   border-width:thin;
+   border-color:#F8F6F6;  
+   font-weight: normal;
+}
+.call-date
+{
+   width:55px;
+   background: #000000;
+   text-align: left;
+}
+.ems-calls
+{
+   width:46px;
+   background: #000099;
+   text-align: center;
+}
+.fire-calls
+{
+   width:46px;
+   background: #D41010;
+   text-align: center;
+}
+.call-total
+{
+   width:55px;
+   background: #000000;
+   text-align: center;
+}
+
+/* Styles for More Information Displays */
+
+.mi-button
+{
+   background-color:#990000; 
+   color:#F8F6F6;
+   font: 14px Verdanan, Arial; 
+   min-height:30px; 
+   width:150px; 
+   cursor:pointer;
+}
+#mi-data h1
+{  
+   text-align:center; 
+}
+.mi-message
+{
+   display: block;
+   width:620px;
+   height: auto;
+   text-align: left;
+   margin-left:5px;
+   position: relative;
+   float: left;
+}
+
+/* Styles for LJFD News */
+
+.newspaper
+{
+   text-align:left; 
+/*   background-image:url(../Images/parchmentbase.jpg);*/
+   background-image:url(../Images/notebook2_sm.jpg);
+   background-repeat:repeat-y;
+   background-color:#FFFFFB;
+   border-style:solid;
+   border-width:thin;
+   -moz-border-radius-topright:15px;
+   -moz-border-radius-bottomright:15px;
+   -webkit-border-top-right-radius:15px;
+   -webkit-border-bottom-right-radius:15px;
+}
+.news-title
+{
+   color:#000000;
+   font: 28px GothicE; 
+   font-weight:bold; 
+   text-align:center; 
+   border-bottom:solid;
+   border-bottom-style : double ;
+   margin:5px 10px 2px 45px;
+}
+
+.news-heading
+{
+   color:#000000;
+   margin : 5px ;
+   font: 16px Tahoma, Verdana, Geneva, sans-serif;
+   font-weight:bold; 
+   text-align:left; 
+}
+
+.news-release
+{
+   color:#000000;
+   margin : 0px 10px 0px 25px;
+   font: 10px Tahoma, Verdana, Geneva, sans-serif; 
+   text-align:right; 
+}
+
+.news-article,
+.news-article p
+{
+   color:#000000;
+   margin : 2px 10px 10px 25px;
+   font: 14px Tahoma, Verdana, Geneva, sans-serif; 
+   text-align:left; 
+}
+
+/* Styles for Contact Us Page */
+
+.contact-block
+{
+   width: 177px;
+   height: 85px;
+   border-bottom-style: solid;
+   border-bottom-color: #CCCCCC;
+   border-width:thin;
+   background-color: #000000;
+   text-align: center;
+   font: 12px Verdana, Arial, Helvetica, sans-serif;
+   font-size: small;
+   font-weight: normal;
+   color: #CCCCCC;
+   padding: 6px 0px 0px 0px;
+}
+.contact-block:first-line
+{
+   font-weight:bold; 
+}
+.contact-info
+{
+   text-align:center; 
+   background-image:url(../Images/station3.png);
+   background-repeat: no-repeat;
+}
+.station-block
+{
+   display:block; 
+   width:310px;
+   text-align:center;   
+}
+
+/* Styles for Apparatus Displays */
+
+.apparatus-thumbnail
+{
+   display:block;
+   width:155px;
+   text-align:center;
+}
+.app-photo
+{
+   cursor:pointer;
+}
+.appthumb-hover
+{
+   background-color:#000099;
+}
+.big-canvas
+{
+   text-align:center; 
+   background-image:url(../Images/american_flag.jpg);
+   background-repeat:no-repeat;
+   background-position:center;
+}
+.big-photo
+{
+   
+}
+.scroll-arrow
+{
+   cursor:pointer;
+}
+
+/* Styles for Service Area Station Popups */
+
+.station-popup
+{
+   display:block;
+   width:325px;
+   text-align:center;
+   text-transform:uppercase;
+   background-image:url(../Images/platebackground.jpg);
+   background-repeat:repeat;
+   color:white;
+   border:outset;
+}
+.station-popup p
+{
+   font-weight:normal;
+}
+#sa-station1
+{
+   position: absolute;
+   top: 450px;
+   left: 83px;
+}
+#sa-station2
+{
+   position: absolute;
+   top: 202px;
+   left: 352px;
+}
+#sa-station3
+{
+   position: absolute;
+   top: 35px;
+   left: 213px;
+}
+#sa-station4
+{
+   position: absolute;
+   top: 376px;
+   left: 273px;
+}

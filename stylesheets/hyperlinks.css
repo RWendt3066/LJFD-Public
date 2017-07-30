@@ -1,0 +1,131 @@
+/* HYPERLINK STYLES */
+
+/* General Formatting */
+
+A:link
+{
+   text-decoration: none; 
+   color:#D41010; 
+   font-weight:normal;
+   font-size:medium;
+}
+A:visited
+{
+   text-decoration: none; 
+   color:#D41010; 
+   font-weight:normal;
+   font-size:medium;
+}
+A:hover
+{
+   text-decoration: underline; 
+   color:#D41010; 
+   font-weight:normal;
+   font-size:medium;
+}
+A:active
+{
+   text-decoration: none; 
+   color:#D41010; 
+   font-weight:normal;
+   font-size:medium;
+}
+
+/* Subtitle Link Formatting */
+
+A.st:link
+{
+   text-decoration: underline; 
+   color: #FFFFFF;
+   font: 12px Arial, Helvetica, sans-serif;
+   font-size: small;
+   font-weight: normal
+}
+A.st:visited
+{
+   text-decoration: underline; 
+   color: #FFFFFF;
+   font: 12px Arial, Helvetica, sans-serif;
+   font-size: small;
+   font-weight: normal
+}
+A.st:hover
+{
+   text-decoration: underline; 
+   color: #FFFFFF;
+   font: 12px Arial, Helvetica, sans-serif;
+   font-size: small;
+   font-weight: bold;
+}
+A.st:active
+{
+   text-decoration: none; 
+   color: #FFFFFF;
+   font: 12px Arial, Helvetica, sans-serif;
+   font-size: small;
+   font-weight: normal
+}
+
+/* Quick Link Formatting */
+
+A.ql:link
+{
+   text-decoration: none; 
+   color:#F8F6F6; 
+   font-weight:normal;
+   line-height:1.5;
+   font-size:medium;
+}
+A.ql:visited
+{
+   text-decoration: none; 
+   color:#F8F6F6; 
+   font-weight:normal;
+   font-size:medium;
+}
+A.ql:hover
+{
+   text-decoration: underline; 
+   color:#FF0000; 
+   font-weight:normal;
+   font-size:medium;
+}
+A.ql:active
+{
+   text-decoration: none; 
+   color:#F8F6F6; 
+   font-weight:normal;
+   font-size:medium;
+}
+
+/* FAQs Link Formatting */
+
+A.faq:link
+{
+   text-decoration: none; 
+   color:#F8F6F6; 
+   font-weight:normal;
+   font-size:small;
+}
+A.faq:visited
+{
+   text-decoration: none; 
+   color:#F8F6F6; 
+   font-weight:normal;
+   font-size:small;
+}
+A.faq:hover
+{
+   text-decoration: underline; 
+   color:#FF0000; 
+   font-weight:normal;
+   font-size:small;
+}
+A.faq:active
+{
+   text-decoration: none; 
+   color:#F8F6F6; 
+   font-weight:normal;
+   font-size:small;
+}
+

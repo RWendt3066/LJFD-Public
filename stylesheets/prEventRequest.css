@@ -1,0 +1,80 @@
+/* Cascading Style Sheet for LJFD Application */
+/* ------------------------------------------ */
+
+/* Styles for PR Event Request Entry */
+
+.fs-contact
+{
+   background-image:url(../Images/lgrey011.jpg); 
+   min-height:165px;
+}
+.fs-comment
+{
+   background-image:url(../Images/lgrey011.jpg); 
+   min-height:140px;
+}
+.fs-description
+{
+   background-image:url(../Images/lgrey011.jpg); 
+   min-height:360px;
+}
+.fs-level2
+{
+   background-image:url(../Images/lgrey016.jpg); 
+}
+.lt-form-block
+{
+   width:49%; 
+}
+.rt-form-block
+{
+   width:49%; 
+   padding-left:51%;
+}
+
+/* Styles for PR Event Request Validation */
+
+.bpv-header-image
+{
+   text-align:center; 
+   width:25%;
+}
+.bpv-header-text
+{
+   text-align:center; 
+   width:75%;
+}
+.bpv-button
+{
+   display:inline-block;
+   width:40%;
+   cursor:pointer;
+}
+.bpv-button-spacer
+{
+   display:inline-block;
+   width:18%;
+}
+.bpv-button-image
+{
+   display:inline-block;
+   vertical-align:middle;
+   text-align:center;
+   width:33%;
+}
+.bpv-button-text
+{
+   display:inline-block;
+   width:65%;
+   vertical-align:top;
+   text-align:center;
+   color:#143AA9;
+   font-size:medium;
+}
+#permit-agreement
+{
+   background-color:#CCCCCC;
+   padding:3px;
+   border:solid;
+   border-size:1px;
+}

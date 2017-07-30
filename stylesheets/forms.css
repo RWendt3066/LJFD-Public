@@ -1,0 +1,75 @@
+/* Cascading Style Sheet for LJFD Application */
+/* ------------------------------------------ */
+
+/* Styles for Global Formatting */
+
+body
+{
+   margin: 3px;
+   padding: 0;
+   text-align: left;
+   font: 16px Tahoma, Verdana, Geneva, sans-serif;
+   font-size: 14px;
+   color: #000000;
+}
+*
+{
+   margin: 0 auto 0 auto;
+} 
+label
+{
+    font-weight:bold;
+}
+
+#container
+{
+   display: block;
+   width: 1015px;
+   height: auto;
+   position: relative;
+}
+.float-left
+{
+   position:relative; 
+   float:left;
+}
+.float-right
+{
+   position:relative; 
+   float:right;
+}
+
+/* Styles for List Formatting */
+
+ul.niceList 
+{ 
+   margin-left:0em; 
+   padding-left:0.2em; 
+   margin-bottom:1em; 
+}
+ul.niceList li 
+{ 
+   background:url(../Images/bullet.gif) 0em 0.3em no-repeat; /* change background em accordingly */ 
+   padding-left: 0.8em; 
+   list-style: none; 
+}
+.niceList ul li 
+{ 
+   background-image:url(../Images/bullet_child.gif); 
+}
+ol.niceList li, ul.niceList li 
+{ 
+   margin-bottom:0.5em; 
+}
+ol.niceList 
+{ 
+   margin-left:1.5em; 
+   padding-left:0px; 
+}
+.niceList ol li 
+{ 
+   list-style:decimal; 
+   background-image:none; 
+   padding-left:0em; 
+}
+
