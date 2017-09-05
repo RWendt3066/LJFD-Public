@@ -10,7 +10,7 @@
   {"Month":"May", "EMS":"218", "Fire":"83"},
   {"Month":"Jun", "EMS":"209", "Fire":"83"},
   {"Month":"Jul", "EMS":"225", "Fire":"73"},
-  {"Month":"Aug", "EMS":"-", "Fire":"-"},
+  {"Month":"Aug", "EMS":"226", "Fire":"59"},
   {"Month":"Sep", "EMS":"-", "Fire":"-"},
   {"Month":"Oct", "EMS":"-", "Fire":"-"},
   {"Month":"Nov", "EMS":"-", "Fire":"-"},
